@@ -27,4 +27,9 @@ class Controller extends BaseController
     {
         return view('main.home');
     }
+
+    public function register()
+    {
+        return view('main.register');
+    }
 }

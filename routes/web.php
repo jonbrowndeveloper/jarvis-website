@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'Controller@home');
+
+Route::get('/register', 'Controller@register');
