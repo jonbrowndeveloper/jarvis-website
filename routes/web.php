@@ -14,3 +14,6 @@
 Route::get('/', 'Controller@home');
 
 Route::get('/register', 'Controller@register');
+Route::post('/register', 'Controller@addBiker');
+
+
