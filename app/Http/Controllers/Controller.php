@@ -10,7 +10,8 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 use View;
 use Validator;
-
+use App\Mail\Email;
+use Illuminate\Support\Facades\Mail;
 
 class Controller extends BaseController
 {
@@ -77,6 +78,21 @@ class Controller extends BaseController
         if ($validator->fails()) {
             return redirect()->back()->withInput();
         } else {
+
+            $data = [];
+
+            // SEND MAIL
+            /*
+            $objDemo = new \stdClass();
+            $objDemo->demo_one = 'Demo One Value';
+            $objDemo->demo_two = 'Demo Two Value';
+            $objDemo->sender = 'SenderUserName';
+            $objDemo->receiver = 'ReceiverUserName';
+
+            Mail::to("j.brown936@gmail.com")->send(new Email($objDemo));
+            */
+            // DISPLAY PAYMENT SCREEN
+
             return view('main.payment')->with([
                 'firstName' => $firstName,
                 'lastName' => $lastName,

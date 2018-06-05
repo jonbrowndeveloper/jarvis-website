@@ -8,11 +8,12 @@
 
     <div class="row">
         <div class="col-lg-2">
+            <img class="img-responsive" src='https://i.imgur.com/hIVXOZk.jpg'>
         </div>
         <div class="col-lg-5">
             <form method='POST' action='/register'>
                 {{ csrf_field() }}
-                <h1>Register</h1>
+                <h1>Register: Step 1 of 2</h1>
                 <div class='details'>* Required fields</div>
                 <br>
                 <div class="form-group row">
@@ -225,6 +226,7 @@
                     <ul>
         </div>
         <div class="col-lg-2">
+            <img class="img-responsive" src='https://i.imgur.com/1YqVrWK.jpg'>
         </div>
     </div>
 @endsection

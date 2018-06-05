@@ -25,25 +25,28 @@
     </div>
 
     <div class='container-fluid'>
-        <div class='row'>
-            <div class="col-lg-2">
+        <div class='row text-center'>
+            <div class="col-lg-1">
             </div>
-            <div class="col-lg-8">
-                <h3>During the 2 days you will ride with Graham through the beautiful trails of the Rocky Mountains of Colorado. Graham will work with each person at various points during the 2 days.
+            <div class="col-lg-10">
+                <h3>During the 2 days you will ride with Graham through the beautiful trails of the Rocky Mountains of Colorado.
+                <br>Graham will work with each person at various points during the 2 days.
                     <br>
                     In the school Graham will break down the basic and advanced techniques he uses to achieve mastery in a variety of challenging terrain and obstacle situations.
                 </h3>
                 <hr class="my-4">
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-1">
             </div>
         </div>
         <div class='row'>
             <div class="col-lg-2">
+                <img class="img-responsive" src='https://i.imgur.com/hIVXOZk.jpg'>
             </div>
             <div class="col-lg-4">
                 <p>
-                <h2>Participants will receive instruction in several vital areas:</h2></p>
+                <h2>Participants will receive instruction in several vital areas:</h2>
+                </p>
                 <ul>
                     <h3>
                         <li>Clutch and throttle control</li>
@@ -61,8 +64,12 @@
                 </ul>
             </div>
             <div class="col-lg-4">
+            <br>
+            <br>
+                <img class="img-responsive" src='https://imgur.com/dbV295L.png'>
             </div>
             <div class="col-lg-2">
+                <img class="img-responsive" src='https://i.imgur.com/1YqVrWK.jpg'>
             </div>
         </div>
     </div>

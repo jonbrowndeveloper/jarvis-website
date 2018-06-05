@@ -5,10 +5,14 @@
 @endsection
 
 @section('content')
-    <div class="row">
-        <div class="col-lg-4">
+    <div class="form-row text-center">
+        <div class="col-lg-2">
+            <img class="img-responsive" src='https://i.imgur.com/hIVXOZk.jpg'>
+        </div>
+        <div class="col-lg-2">
         </div>
         <div class="col-lg-4">
+            <h1 class="text-center">Register: Step 2 of 2</h1>
             <h3 class="text-center">Thank you for submitting your information {{ $firstName }}</h3>
             <h4 class="text-center">Please submit payment to complete your registration</h4>
             <br>
@@ -21,8 +25,10 @@
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             </form>
         </div>
-        <div class="col-lg-4">
-
+        <div class="col-lg-2">
+        </div>
+        <div class="col-lg-2">
+            <img class="img-responsive" src='https://i.imgur.com/1YqVrWK.jpg'>
         </div>
     </div>
 @endsection
