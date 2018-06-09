@@ -18,6 +18,8 @@ return [
 
     'driver' => env('MAIL_DRIVER', 'smtp'),
 
+    /*'driver' => 'sendmail',*/
+
     /*
     |--------------------------------------------------------------------------
     | SMTP Host Address
@@ -29,7 +31,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +58,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'example@1232icloud.com'),
-        'name' => env('MAIL_FROM_NAME', 'Graham Jarvis Training'),
+        'address' => env( 'gjtestwebsite111@gmail.com'),
+        'name' => env('Graham Jarvis Training'),
     ],
 
     /*

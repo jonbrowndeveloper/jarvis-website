@@ -79,18 +79,19 @@ class Controller extends BaseController
             return redirect()->back()->withInput();
         } else {
 
-            $data = [];
+            $title = "Test Title";
+            $content = "Test Content";
 
-            // SEND MAIL
-            /*
-            $objDemo = new \stdClass();
-            $objDemo->demo_one = 'Demo One Value';
-            $objDemo->demo_two = 'Demo Two Value';
-            $objDemo->sender = 'SenderUserName';
-            $objDemo->receiver = 'ReceiverUserName';
+            Mail::send('mails.demo', ['title' => $title, 'content' => $content], function ($message)
+            {
 
-            Mail::to("j.brown936@gmail.com")->send(new Email($objDemo));
-            */
+                $message->from('gjtestwebsite111@gmail.com', 'Graham Jarvis Training');
+
+                $message->to('j.brownie936@Gmail.com');
+
+            });
+
+
             // DISPLAY PAYMENT SCREEN
 
             return view('main.payment')->with([
